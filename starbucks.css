@@ -1244,7 +1244,7 @@ overflow-x:hidden;
 top:75px;
 left:0%;
 width:100%;
-height:1100px;
+height:190%;
 }
 .back_img{
 width:100%;
@@ -1670,7 +1670,7 @@ left:35%;
 top:600px;
 }
 .footer1{
-top:2.9%;
+top:3.1%;
 }
 .footer2_button{
 left:55%;
@@ -1857,14 +1857,14 @@ top:30px;
 }
 .login_img{
 top:20px;
-left:120px;
+left:80px;
 width:250px;
 display:block;
 }
 .lines{
 position:absolute;
 top:150px;
-left:100px;
+left:50px;
 width:100%;
 height:300px;
 display:flex;
@@ -1879,7 +1879,7 @@ width:70%;
 
 .login_right1_bt{
 top:400px;
-left:22%;
+left:80px;
 width:58%;
 }
 .login_bt1{
@@ -1904,13 +1904,13 @@ height:100px;
 position:absolute;
 top:80px;
 width:215px;
-left:130px;
+left:60px;
 margin-left:20px;
 }
 #lines1-2{
 position:absolute;
 top:100px;
-left:95px;
+left:30px;
 }
 .lines2-1{
 position:absolute;
@@ -1925,7 +1925,7 @@ align-items:center;
 .lines2-3{
 position:absolute;
 top:-10px;
-left:10px;
+left:-50px;
 }
 #lines2{
 position:absolute;
@@ -1934,12 +1934,12 @@ left:100px;
 }
 #lines2-2{
 top:8px;
-left:20px;
+left:-40px;
 }
 .login_right2_bt{
 top:600px;
 left:50px;
-width:400px;
+width:300px;
 }
 .new_menu_animation{
 animation:abc;
@@ -2000,7 +2000,7 @@ width:80%;
 }
 .new2{
 left:-890px;
-top:20px;
+top:36px;
 }
 #new_menu_button{
 top:50px;

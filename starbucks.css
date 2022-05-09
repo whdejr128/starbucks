@@ -1894,7 +1894,7 @@ width:150px;
 .login_right2{
 height:150px;
 width:100%;
-left:20%;
+left:25%;
 }
 .lines2{
 display:flex;
@@ -1905,13 +1905,13 @@ height:100px;
 position:absolute;
 top:80px;
 width:215px;
-left:60px;
+left:70px;
 margin-left:20px;
 }
 #lines1-2{
 position:absolute;
 top:100px;
-left:30px;
+left:40px;
 }
 .lines2-1{
 position:absolute;
@@ -1926,7 +1926,7 @@ align-items:center;
 .lines2-3{
 position:absolute;
 top:-10px;
-left:-50px;
+left:-40px;
 }
 #lines2{
 position:absolute;
@@ -1935,7 +1935,7 @@ left:100px;
 }
 #lines2-2{
 top:8px;
-left:-40px;
+left:-30px;
 }
 .login_right2_bt{
 top:600px;
@@ -1957,7 +1957,7 @@ justify-content:center;
 align-items:center;
 position:absolute;
 top:1800px;
-left:-2%;
+left:0%;
 z-index:4;
 width:100%;
 height:100px;

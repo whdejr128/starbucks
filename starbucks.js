@@ -12,7 +12,7 @@ let slide_bt=document.querySelectorAll('.slide_bt');
 let slide_bt2=document.querySelectorAll('.slide_bt2');
 let paging_img=document.querySelectorAll('.paging_img');
 let paging_img2=document.querySelectorAll('.paging_img2');
-
+let media_bottom2_slide2=document.querySelector('.media_bottom2_slide2');
 let img_up=document.querySelector('#img_up');
 let img_up2=document.querySelector('#img_up2');
 let radio=document.querySelector('.radio');
@@ -1156,9 +1156,11 @@ media_bottom_slide_button.addEventListener('click',()=>{
 if(media_bottom_slide_button.value=='play'){
 media_bottom_slide_button.value='pause';
 media_bottom_slide_img.src='/starbucks/starbucks_img/pause.svg';
+media_bottom2_slide2.style.animationName='media_slide';
 }
 else if(media_bottom_slide_button.value=='pause'){
 media_bottom_slide_button.value='play';
 media_bottom_slide_img.src='/starbucks/starbucks_img/play.svg';
+media_bottom2_slide2.style.animationName='stop';
 }
 });

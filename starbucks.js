@@ -46,6 +46,11 @@ let media_bottom_inline=document.querySelectorAll('.media_bottom_inline');
 let media_bottom_second_line=document.querySelectorAll('.media_bottom_second_line');
 let media_bottom_slide_img=document.querySelector('.media_bottom_slide_img');
 let media_bottom_slide_button=document.querySelector('.media_bottom_slide_button');
+const coffee_img1=document.querySelector('.coffee_img1');
+const coffee_img2=document.querySelector('.coffee_img2');
+const coffee_img3=document.querySelector('.coffee_img3');
+const coffee_img4=document.querySelector('.coffee_img4');
+const coffee_img_button=document.querySelector('.coffee_img_button');
 
 
 slide_bt2[0].addEventListener('click',()=>{ //멈춤일때
@@ -1162,5 +1167,23 @@ else if(media_bottom_slide_button.value=='pause'){
 media_bottom_slide_button.value='play';
 media_bottom_slide_img.src='/starbucks/starbucks_img/play.svg';
 media_bottom2_slide2.style.animationName='stop';
+}
+});
+
+window.addEventListener('scroll',()=>{
+console.log(window.scrollY);
+if(window.scrollY<300){
+coffee_img1.style.animationName='main1';
+coffee_img2.style.animationName='main2';
+coffee_img3.style.animationName='main3';
+coffee_img4.style.animationName='main4';
+coffee_img_button.style.animationName='main5';
+}
+else{
+coffee_img1.style.animationName='stop';
+coffee_img2.style.animationName='stop';
+coffee_img3.style.animationName='stop';
+coffee_img4.style.animationName='stop';
+coffee_img_button.style.animationName='stop';
 }
 });

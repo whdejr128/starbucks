@@ -1243,7 +1243,7 @@ animation: footer2_img3 3s;
 
 .back_back{
 position:fixed;
-overflow-x:hidden;
+overflow:hidden;
 top:75px;
 left:0%;
 width:100%;
@@ -1262,7 +1262,7 @@ width:100%;
 height:2990px;
 transition:0.5s;
 z-index:4;
-overflow-x:hidden;
+overflow:hidden;
 }
 
 .footer3{
@@ -1422,7 +1422,7 @@ display:flex;
 justify-content:center;
 position:fixed;
 width:100%;
-height:4250px;
+height:100%;
 top:0px;
 left:130%;
 z-index:9;
@@ -1430,11 +1430,9 @@ transition:0.3s;
 }
 
 .stick{
-position:sticky;
-top:0px;
-left:130%;
+left:0%;
 width:70%;
-height:100px;
+height:100%;
 z-index:9;
 overflow-y:scroll;
 overflow-x:hidden;
@@ -1458,7 +1456,6 @@ position:relative;
 display:flex;
 justify-content:space-between;
 align-items:center;
-top:111px;
 width:100%;
 height:63px;
 background:#2e2e2e;
@@ -1542,18 +1539,15 @@ padding:0px 60px;
 }
 
 .media_menu{
+position:relative;
 display:flex;
 justify-content:center;
 align-items:center;
-flex-direction:column;
 width:100%;
-height:110px;
+height:100px;
 background:#424242;
-position:absolute;
-top:0px;
-left:0%;
-z-index:8;
 border-bottom:1px solid gray;
+
 }
 
 .search{
@@ -1694,7 +1688,8 @@ height:3040px;
 
 @media(max-width:1060px){
 .stick{
-height:80vw;
+overflow-y:scroll;
+height:100%;
 }
 .bottom3_line1{
 display:flex;
@@ -1715,10 +1710,6 @@ width:40%;
 }
 
 @media(max-width:680px){
-.stick{
-overflow-y:scroll;
-height:190vw;
-}
 .bottom2 div{
 display:flex;
 flex-direction:column;

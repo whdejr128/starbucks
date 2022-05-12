@@ -1434,7 +1434,7 @@ position:sticky;
 top:0px;
 left:130%;
 width:70%;
-height:153vw;
+height:185vw;
 z-index:9;
 overflow-y:scroll;
 overflow-x:hidden;
@@ -1693,6 +1693,9 @@ height:3040px;
 /*-----------------------------------------------------------*/
 
 @media(max-width:1060px){
+.stick{
+height:120vw;
+}
 .bottom3_line1{
 display:flex;
 flex-direction:column;
@@ -1712,6 +1715,9 @@ width:40%;
 }
 
 @media(max-width:680px){
+.stick{
+height:185vw;
+}
 .bottom2 div{
 display:flex;
 flex-direction:column;

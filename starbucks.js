@@ -317,13 +317,13 @@ if(img_up.src=="https://image.istarbucks.co.kr/common/img/common/btn_prom_down.p
 img_up.src='https://image.istarbucks.co.kr/common/img/common/btn_prom_up.png';
 promotion.style.display='flex';
 section.style.top='1280px';
-header.style.height='4250px';
+//header.style.height='4250px';
 media_bottom.style.top='3150px';
 }
 else if(img_up.src=='https://image.istarbucks.co.kr/common/img/common/btn_prom_up.png'){
 img_up.src="https://image.istarbucks.co.kr/common/img/common/btn_prom_down.png";
 section.style.top='700px';
-header.style.height='3710px';
+//header.style.height='3710px';
 media_bottom.style.top='2570px';
 }
 });
@@ -344,7 +344,7 @@ back_back.left='0%';
 exit.style.display='none';
 media.style.display='flex';
 header.style.left='100%';
-header.style.height='3710px';
+//header.style.height='3710px';
 banner.style.display='flex';
 });
 

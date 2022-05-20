@@ -1854,6 +1854,7 @@ position:absolute;
 padding:115px 130px;
 left:-250px;
 top:30px;
+z-index:5;
 }
 .login_img{
 top:20px;
